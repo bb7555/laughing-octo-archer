@@ -1,0 +1,61 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image:url('/images/company_logos/staffing.jpeg'); 
+  background-repeat:no-repeat;
+  background-position: center -80px;
+}
+a {
+  color: #00b7ff;
+}
+
+.container div.jumbotron
+{
+	background: none;
+}
+
+div.carousel
+{
+	margin: 0px;
+}
+
+div.span8
+{
+	background-color: whitesmoke;
+padding: 20px;
+border-radius: 5px;
+width:820px;
+}
+
+div.wrap
+{
+	margin-top: 125px;
+}
+
+a.carousel-control
+{
+	top: -35px;
+}
+
+.carousel-control span.glyphicon-chevron-left, .carousel-control span.glyphicon-chevron-right
+{
+	top:5px;
+}
+
+.carousel-indicators li.active
+{
+	background:#000;
+}
+
+ol.carousel-indicators
+{
+	top:-40px;
+	bottom: 0;
+	margin-left: 0px;
+	width: 100px;
+}
+
+ol.carousel-indicators li
+{
+	border:1px solid #555;
+}
