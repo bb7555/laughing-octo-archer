@@ -1,11 +1,11 @@
 {
-  "name": "Yolo-Adventure",
+  "name": "Brooklyntronic",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
-  "repository": "https://github.com/bb7555/heroku-node-mongo-express-mongoose-football-parley.git",
+  "repository": "https://github.com/bb7555/laughing-octo-archer.git",
   "author": "Cliff Barnes",
   "dependencies": {
 

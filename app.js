@@ -13,7 +13,7 @@ var express = require('express')
   var uristring = 
   process.env.MONGOLAB_URI || 
   process.env.MONGOHQ_URL || 
-  'mongodb://localhost/getthatjob-info';
+  'mongodb://localhost/brooklyntronic';
 
 var app = express();
 var Poet = require('poet');
@@ -90,10 +90,10 @@ var poet = Poet(app, {
   posts: './_posts',
   metaFormat: 'json',
   routes: {
-    '/myposts/:post': 'post',
+    '/posts/:post': 'post',
     '/pagination/:page': 'page',
-    '/mytags/:tag': 'tag',
-    '/mycategories/:category': 'category'
+    '/tags/:tag': 'tag',
+    '/categories/:category': 'category'
   }
 });
 
